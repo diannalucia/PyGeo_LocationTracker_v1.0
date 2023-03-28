@@ -15,7 +15,7 @@ print("Created by Cephas Cardozo")
 print("Developed using Python\n")
 
 # variable
-num = input("Please input a phone number with the country code\nType here : ")
+num = input("Please input a phone number with the country code\nType here :16417581659 ")
 pep_number = phonenumbers.parse(num)
 location = geocoder.description_for_number(pep_number, "en")
 service_pro = phonenumbers.parse(num)
@@ -25,7 +25,7 @@ print(location)
 print(carrier.name_for_number(service_pro, "en"))
 
 # opencage_apiKey
-key = '#put_in_your_own_OpencageApiKey'
+key = '#prj_live_sk_21b67386a6b7acbe4216a141e2a29822a2aad56a'
 
 # variables
 geocoder = OpenCageGeocode(key)
